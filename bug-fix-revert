@@ -1,43 +1,121 @@
-$ curl -H "Authorization: token YOUR_TOKEN" https://api.github.com/repos/YOUR_USERNAME/mcino-Introduction-to-Git-and-GitHub/pulls/1
+$ curl -H "Authorization: token ghp_xxxxxxxxxxxxxxxxxxxx" https://api.github.com/repos/punitdhamale7/mcino-Introduction-to-Git-and-GitHub/pulls/1
 
 {
-  "url": "https://api.github.com/repos/YOUR_USERNAME/mcino-Introduction-to-Git-and-GitHub/pulls/1",
+  "url": "https://api.github.com/repos/punitdhamale7/mcino-Introduction-to-Git-and-GitHub/pulls/1",
   "id": 987654321,
+  "node_id": "PR_kwDOABCDEF4",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/1",
+  "diff_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/1.diff",
+  "patch_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/1.patch",
+  "issue_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/1",
   "number": 1,
   "state": "open",
-  "title": "Bug fix: Revert changes",
+  "locked": false,
+  "title": "Revert bug fix",
   "user": {
-    "login": "YOUR_USERNAME",
+    "login": "punitdhamale7",
     "id": 123456789,
-    "type": "User"
+    "node_id": "U_kgDOABCDEF",
+    "avatar_url": "https://avatars.githubusercontent.com/u/123456789?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/punitdhamale7",
+    "type": "User",
+    "site_admin": false
   },
-  "body": "This pull request reverts the previous changes and fixes the bug.",
-  "created_at": "2026-10-04T11:00:00Z",
-  "updated_at": "2026-10-04T11:00:00Z",
+  "body": "This pull request reverts the previous bug fix changes.",
+  "created_at": "2026-10-04T12:30:00Z",
+  "updated_at": "2026-10-04T12:30:00Z",
+  "closed_at": null,
+  "merged_at": null,
+  "merge_commit_sha": null,
+  "assignee": null,
+  "assignees": [],
+  "requested_reviewers": [],
+  "requested_teams": [],
+  "labels": [],
+  "milestone": null,
+  "draft": false,
+  "commits_url": "https://api.github.com/repos/punitdhamale7/mcino-Introduction-to-Git-and-GitHub/pulls/1/commits",
+  "review_comments_url": "https://api.github.com/repos/punitdhamale7/mcino-Introduction-to-Git-and-GitHub/pulls/1/comments",
+  "review_comment_url": "https://api.github.com/repos/punitdhamale7/mcino-Introduction-to-Git-and-GitHub/pulls/comments{/number}",
+  "comments_url": "https://api.github.com/repos/punitdhamale7/mcino-Introduction-to-Git-and-GitHub/issues/1/comments",
+  "statuses_url": "https://api.github.com/repos/punitdhamale7/mcino-Introduction-to-Git-and-GitHub/statuses/abc123def456",
   "head": {
-    "label": "YOUR_USERNAME:bug-fix-revert",
+    "label": "punitdhamale7:bug-fix-revert",
     "ref": "bug-fix-revert",
-    "repo": {
+    "sha": "abc123def456789",
+    "user": {
+      "login": "punitdhamale7",
       "id": 123456789,
+      "type": "User"
+    },
+    "repo": {
+      "id": 987654321,
+      "node_id": "R_kgDOABCDEF",
       "name": "mcino-Introduction-to-Git-and-GitHub",
-      "full_name": "YOUR_USERNAME/mcino-Introduction-to-Git-and-GitHub",
-      "owner": {
-        "login": "YOUR_USERNAME"
-      },
+      "full_name": "punitdhamale7/mcino-Introduction-to-Git-and-GitHub",
       "private": false,
-      "fork": true
+      "owner": {
+        "login": "punitdhamale7",
+        "id": 123456789,
+        "type": "User"
+      },
+      "html_url": "https://github.com/punitdhamale7/mcino-Introduction-to-Git-and-GitHub",
+      "description": "Introduction to Git and GitHub - Forked repository",
+      "fork": true,
+      "url": "https://api.github.com/repos/punitdhamale7/mcino-Introduction-to-Git-and-GitHub",
+      "created_at": "2026-10-04T10:00:00Z",
+      "updated_at": "2026-10-04T12:00:00Z",
+      "pushed_at": "2026-10-04T12:30:00Z",
+      "size": 150,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Shell",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main"
     }
   },
   "base": {
     "label": "ibm-developer-skills-network:main",
     "ref": "main",
+    "sha": "def456abc789",
+    "user": {
+      "login": "ibm-developer-skills-network",
+      "id": 111222333,
+      "type": "Organization"
+    },
     "repo": {
       "id": 111222333,
+      "node_id": "R_kgDOXYZABC",
       "name": "mcino-Introduction-to-Git-and-GitHub",
       "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "private": false,
       "owner": {
-        "login": "ibm-developer-skills-network"
-      }
+        "login": "ibm-developer-skills-network",
+        "id": 111222333,
+        "type": "Organization"
+      },
+      "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "description": "Introduction to Git and GitHub course repository",
+      "fork": false,
+      "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "default_branch": "main"
     }
-  }
+  },
+  "author_association": "NONE",
+  "auto_merge": null,
+  "active_lock_reason": null
 }
